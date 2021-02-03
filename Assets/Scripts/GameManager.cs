@@ -29,6 +29,8 @@ public class GameManager : MonoBehaviour
 
         if(score <= 0f){
 
+            scoreText.text = "Score: 0";
+
             endGame();
 
         }
